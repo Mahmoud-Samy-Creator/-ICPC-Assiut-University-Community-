@@ -12,10 +12,8 @@ if interval < 0:
 if user_input[0] == 0 and user_input[1] == 0:
     print("NO")
 
-elif user_input[0] == user_input[1]:
+elif user_input[0] == user_input[1] or interval == 1 or interval == 0:
     print("YES")
 
-elif interval == 1 or interval == 0:
-    print("YES")
 else:
     print("NO")
